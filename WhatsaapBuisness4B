@@ -1,14 +1,4 @@
-const express = require('express');
-const app = express();
-const PORT = 3000;
-
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});// Import Express.js
+// Import Express.js
 const express = require('express');
 
 // Create an Express app
@@ -44,4 +34,4 @@ app.post('/', (req, res) => {
 // Start the server
 app.listen(port, () => {
   console.log(`\nListening on port ${port}\n`);
-}); 
+});
